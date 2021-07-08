@@ -15,12 +15,14 @@ const Home = () => {
 
         <div className="home__row">
           <Product
+            id={"2312512512"}
             title="the lean startup"
             price={29.99}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
             rating={5}
           />
           <Product
+            id={"5312512512"}
             title="the lean startup"
             price={29.99}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
@@ -32,6 +34,7 @@ const Home = () => {
           {productArray.map((prod) => {
             return (
               <Product
+                id={prod.id}
                 title={prod.title}
                 price={prod.price}
                 image={prod.image}
@@ -43,6 +46,7 @@ const Home = () => {
 
         <div className="home__row">
           <Product
+            id={"7312512512"}
             title="the lean startup"
             price={29.99}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
