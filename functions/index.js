@@ -37,3 +37,4 @@ exports.api = functions.https.onRequest(app);
 
 // Example endpoint (into terminal: firebase emulators:start)
 // http://localhost:5001/clone-22ee9/us-central1/api
+// firebase deploy --only function (to only deploy backend)
